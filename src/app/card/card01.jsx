@@ -31,8 +31,8 @@ export default function Card() {
             <h1 className="text-bg-success p-4 text-center">Online Quiz Application</h1>
             <div className="container">
                 <div className="row justify-content-center" style={{ height: '100vh' }}>
-                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div className="col-6 col-sm-6 d-flex justify-content-center align-items-center">
+                        <div className="card" style={{ width: "13rem" }}>
                             <img src="https://miro.medium.com/v2/resize:fit:1000/1*FBRsnCP9wE84UVW1Kkv5Yw.jpeg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Intelligence Test</h5>
@@ -41,8 +41,8 @@ export default function Card() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                        <div className="card" style={{ width: "18rem" }}>
+                    <div className="col-6 col-sm-6 d-flex justify-content-center align-items-center">
+                        <div className="card" style={{ width: "13rem" }}>
                             <img src="https://miro.medium.com/v2/resize:fit:1000/1*FBRsnCP9wE84UVW1Kkv5Yw.jpeg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Knowledge Test</h5>
