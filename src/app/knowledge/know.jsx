@@ -61,7 +61,6 @@ export default function Intelligent() {
         setSelectedAnswers(updatedAnswers);   
         if (key === questions2[index].correctanswer) {
             setAns("Your answer is Correct");
-            setCorrectAnswer(questions2[index].correctanswer);
         } else {
             setAns("Your answer is Incorrect");
             setCorrectAnswer(questions2[index].correctanswer);  // Stored in Else (in case of incorrect answer)
