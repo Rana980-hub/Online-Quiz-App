@@ -60,9 +60,8 @@ export default function Intelligent() {
         updatedAnswers[index] = key;  // Error: Cannot Directly Update the State, Used Another Array
         setSelectedAnswers(updatedAnswers);   
         if (key === questions[index].correctanswer) {
-            setAns("Your answer is Correct");
-            setCorrectAnswer(questions[index].correctanswer);
-        } else {
+            setAns("Your answer is Correct");  }
+else {
             setAns("Your answer is Incorrect");
             setCorrectAnswer(questions[index].correctanswer);  // Stored in Else (in case of incorrect answer)
         }
