@@ -39,7 +39,7 @@ export default function Intelligent() {
         return (
             <>
                 <h1 className="text-center">You have completed the quiz!</h1>
-                <h2 className="text-success">Your Score out of {questions2.length} Questions: {score}</h2>
+                <h2 className="text-success">Your Score out of {questions2.length} : {score}</h2>
                 <h2 className="text-success">Each Question have 1 Mark</h2>  
                 <button onClick={() => {
                     setIndex(0);
